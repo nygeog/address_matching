@@ -3,6 +3,11 @@ Address Matching
 
 Code to match address strings from a large set using Levenshtein, in R and/or Python. 
 
+Notes
+=====
+
+1) So one thing to consider is removing the address house number first and then add it later. Because the score of 50 Main St. compared to 59 Main St. will be really close and these are inherently different
+
 
 R
 ==
