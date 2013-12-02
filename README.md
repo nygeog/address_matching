@@ -7,6 +7,7 @@ Notes
 =====
 
 1) So one thing to consider is removing the address house number first and then add it later. Because the score of 50 Main St. compared to 59 Main St. will be really close and these are inherently different.
+
 May want to split the string of the house number out, assign some weight or value to it. 
 
 http://stackoverflow.com/questions/8113782/split-string-on-whitespace-in-python
