@@ -16,6 +16,8 @@ Python
 ======
 http://www.coli.uni-saarland.de/courses/LT1/2011/slides/Python-Levenshtein.html
 https://code.google.com/p/pylevenshtein/
+USES THIS
+http://stackoverflow.com/questions/6690739/fuzzy-string-comparison-in-python-confused-with-which-library-to-use
 
 Wikipedia
 =========
