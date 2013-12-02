@@ -3,6 +3,8 @@ Address Matching
 
 Code to match address strings from a large set using Levenshtein, in R and/or Python. 
 
+Since this is for comparing medical data addresses (must be IRB, HIPPA compliant) this cannot call external geocoders.
+
 Notes
 =====
 
