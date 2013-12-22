@@ -3,12 +3,10 @@ Address Matching
 
 Code to match address strings from a large set using Levenshtein, in R and/or Python. 
 
-Since this is for comparing medical data addresses (must be IRB, HIPPA compliant) this cannot call external geocoders.
-
 Notes
 =====
 
-1) So one thing to consider is to create seperate ratios for address house number first, then address (suffix, prefix, state, etc and then maybe a 3rd for ZIP. Because the score of 50 Main St. compared to 59 Main St. will be really close and these are inherently different.
+1) So one thing to consider is removing the address house number first and then add it later. Because the score of 50 Main St. compared to 59 Main St. will be really close and these are inherently different.
 
 May want to split the string of the house number out, assign some weight or value to it. 
 
